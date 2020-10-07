@@ -1,0 +1,66 @@
+#setWalk {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 2rem;
+    // background: red;
+    .image__Container {
+        display: inline-block;
+        width: 800px;
+        height: 500px;
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .info {
+        vertical-align: top;
+        display: inline-block;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        width: 50%;
+        text-align: center;
+        h3 {
+            font-size: 2rem;
+            text-decoration: underline;
+        }
+        ul {
+            padding: 0;
+            list-style: none;
+            li {
+                text-decoration: underline;
+                margin: 1rem;
+            }
+        }
+    }
+}
+
+
+#tracks {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 3rem;
+    // background: gold;
+    .track {
+        font-family: 'Alegreya Sans SC', sans-serif;
+        .track__title {
+            background: whitesmoke;
+            font-size: 2rem;
+            margin: 0;
+        }
+        .image__container {
+            vertical-align: middle;
+            display: inline-block;
+            width: 700px;
+            height: 500px;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .track__info {
+            text-align: center;
+            vertical-align: middle;
+            width: 50%;
+            display: inline-block;
+        }
+    }
+}

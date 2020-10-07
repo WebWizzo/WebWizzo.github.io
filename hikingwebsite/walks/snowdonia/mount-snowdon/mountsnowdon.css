@@ -1,0 +1,79 @@
+#setWalk {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+#setWalk .image__Container {
+  display: inline-block;
+  width: 800px;
+  height: 500px;
+}
+
+#setWalk .image__Container img {
+  height: 100%;
+  width: 100%;
+}
+
+#setWalk .info {
+  vertical-align: top;
+  display: inline-block;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  width: 50%;
+  text-align: center;
+}
+
+#setWalk .info h3 {
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+#setWalk .info ul {
+  padding: 0;
+  list-style: none;
+}
+
+#setWalk .info ul li {
+  text-decoration: underline;
+  margin: 1rem;
+}
+
+#tracks {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+
+#tracks .track {
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+#tracks .track .track__title {
+  background: whitesmoke;
+  font-size: 2rem;
+  margin: 0;
+}
+
+#tracks .track .image__container {
+  vertical-align: middle;
+  display: inline-block;
+  width: 700px;
+  height: 500px;
+}
+
+#tracks .track .image__container img {
+  width: 100%;
+  height: 100%;
+}
+
+#tracks .track .track__info {
+  text-align: center;
+  vertical-align: middle;
+  width: 50%;
+  display: inline-block;
+}
+/*# sourceMappingURL=mountsnowdon.css.map */
